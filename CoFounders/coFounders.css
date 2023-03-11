@@ -1,0 +1,162 @@
+/*START: TOP-NAV STYLE*/
+.top-nav>ul>li:nth-child(2) {
+    font-weight: bolder;
+}
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+.header-overlay-content>ul>li:nth-child(3)>a {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN SECTION STYLE*/
+.main-section {
+    padding: 4.25rem 7rem 2.75rem 7rem;
+}
+
+.main-section>span {
+    font-size: 1.65rem;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    display: block;
+    line-height: 2.25rem;
+    padding-left: 1rem;
+    border-left: solid;
+    border-color: var(--primary);
+}
+
+.main-section>p {
+    margin: 0;
+    font-size: 1.1rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+}
+
+.main-section>p>span {
+    color: var(--primary);
+}
+
+.main-section>.blog {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.main-section>.blog>.coFounder-image {
+    background-image: url(../common/images/CoFounders.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2.65rem;
+    flex: 1;
+}
+
+.main-section>.blog>.coFounder-image>.overlay-content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.28);
+    border-radius: 2.65rem;
+    padding: 38% 0 3% 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.main-section>.blog>.coFounder-image>.overlay-content>span  {
+    font-size: 1.1rem;
+    color: var(--white);
+    font-weight: bold;
+    display: block;
+    line-height: 2rem;
+    align-self: center;
+    padding: 1rem;
+}
+
+.main-section>.blog>.main-content {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 0rem 1rem;
+    color: var(--black);
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.main-section>.blog>.main-content>span {
+    line-height: 1.85rem;
+    font-weight: bold;
+}
+
+.main-section>.blog>.main-content>p {
+    margin: 0;
+}
+
+/* Timeline Container */
+.main-section>.blog>.main-content> .timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+/* Outer Layer with the timeline border */
+.main-section>.blog>.main-content> .timeline > .outer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10rem;
+    border-left: 0.05rem solid;
+    border-color: var(--timeline-border);
+}
+
+/* Card container */
+.main-section>.blog>.main-content> .timeline > .outer >.card {
+    position: relative;
+    margin: 0 0 1rem 1rem;
+    padding: 0.5rem;
+}
+
+/* Information about the timeline */
+.main-section>.blog>.main-content> .timeline > .outer > .card > .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+/* Date of the card */
+.main-section>.blog>.main-content> .timeline > .outer > .card > .info > .date {
+    display: flex;
+    color: var(--primary);
+    position: relative;
+    line-height: 4.3rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/* Timeline dot  */
+.main-section>.blog>.main-content> .timeline > .outer > .card > .info > .date::before {
+    align-self: center;
+    content: "";
+    position: absolute;
+    width: 1.65rem;
+    height: 1.65rem;
+    background: var(--white);
+    border-radius:50%;
+    border: 0.05rem solid;
+    border-color: var(--timeline-border);
+    left: -73%
+}
+
+.main-section>.blog>.main-content> .timeline > .outer > .card > .info > .description {
+    margin: 0;
+}
+/*END: MAIN SECTION STYLE*/

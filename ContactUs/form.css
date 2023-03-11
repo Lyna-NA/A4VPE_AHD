@@ -1,0 +1,85 @@
+/*START: FORM WRAPPER STYLE*/
+.form-add-company form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 6.75rem;
+}
+
+.form-add-company form .form-section{
+	display: flex;
+	flex-direction: column;
+	row-gap: 3rem;
+	width: 100%;
+}
+
+.form-add-company form .form-section span{
+	color: var(--black);
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	font-weight: bold;
+}
+
+.form-add-company form .form-section .form-group {
+	display: flex;
+	flex-direction: row;
+	column-gap: 2.75rem;
+}
+
+.form-add-company form .group {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.1rem;
+	width: 100%;
+}
+
+.form-add-company form .form-group .group label {
+	background-color: var(--white);
+	color: var(--black);
+	font-size: 1rem;
+	line-height: 1.2rem;
+	font-weight: 500;
+}
+
+.form-add-company form label > div{
+	color: red;
+	padding-top: 2.75rem;
+}
+
+.form-add-company form .form-group .group input,
+.form-add-company form .form-group input,
+.form-add-company form .form-group .group select,
+.form-add-company form .form-group .group textarea {
+	background-color:var(--white);
+	color: var(--black);
+	font-size: 1rem;
+	line-height: 1.2rem;
+	font-weight: 500;
+	border-radius: 0.6rem;
+	border: 0.05rem solid;
+	border-color: var(--secondary-border-clr);
+	padding: 1rem;
+	outline: none;
+}
+
+/*START: FORM BTN-SUBMIT STYLE*/
+.companyContact .form-group .submit-form-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.companyContact .form-group .submit-form-btn button{
+	border: 0;
+	padding: 1.05rem 0;
+	justify-content: center;
+	border-radius: 0.6rem;
+	cursor: pointer;
+	font-size: 1rem;
+	height: 100%;
+	width: 100%;
+	background-color:var(--primary);
+	color: var(--white);
+}
+/*END: FORM BTN-SUBMIT STYLE*/
+
+/*END: FORM WRAPPER STYLE*/

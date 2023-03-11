@@ -1,0 +1,110 @@
+/*START: TOP-NAV STYLE*/
+.top-nav>ul>li:nth-child(6) {
+    font-weight: bolder;
+}
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+.header-overlay-content>ul>li:nth-child(1)>a {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN SECTION STYLE*/
+.main-section {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 7rem 11rem 7rem;
+}
+
+.main-section > span{
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+    display: block;
+    line-height: 1.7rem;
+}
+
+.main-section > p{
+    margin: 0;
+    line-height: 2rem;
+    font-size: 1rem;
+    padding-bottom: 4.75rem;
+}
+
+.main-section > .investments{
+    display: flex;
+    flex-direction: row;
+    row-gap: 3.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.main-section > .investments .img-container img{
+    width: 100%;
+}
+
+.main-section > .investments > .row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5rem;
+    row-gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-section > .investments > .row > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.4rem;
+    width: 22%;
+}
+
+.main-section > .investments > .row > div > span{
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+
+.main-section > .banks{
+    display: flex;
+    flex-direction: row;
+    row-gap: 3.5rem;
+}
+
+.main-section > .banks .img-container img{
+    width: 100%;
+}
+
+.main-section > .banks > .row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5rem;
+    row-gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-section > .banks > .row > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.4rem;
+    width: 22%;
+}
+
+.main-section > .banks > .row > div > span{
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+/*END: MAIN SECTION STYLE*/

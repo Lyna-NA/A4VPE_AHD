@@ -1,0 +1,237 @@
+/*START: TOP-NAV STYLE*/
+.top-nav>ul>li:nth-child(5) {
+    font-weight: bolder;
+}
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN SECTION STYLE*/
+.main-section {
+    padding: 5rem 7rem 7rem 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section > span{
+    font-size: 1.5rem;
+    color: var(--black);
+    font-weight: bold;
+    padding-bottom: 3.3rem;
+    display: block;
+    text-align: center;
+    line-height: 3.2rem;
+}
+
+.main-section > p{
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin: 0;
+    padding-bottom: 5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*START: CARDS STYLE*/
+.main-section > .cards{
+    display: flex;
+    flex-direction: row;
+    gap: 2.25rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8.25rem;
+    flex-wrap: wrap;
+}
+
+.main-section > .cards > .cardsCol{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-section > .cards > .cardsCol > .card{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2.5rem;
+    background-color: var(--section-background);
+    border-radius: 3rem;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--black);
+    width: calc(100% - 4.5rem);
+}
+
+.main-section > .cards > .cardsCol > .card > span{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.main-section > .cards > .cardsCol > .card > p{
+    display: block;
+    text-align: center;
+    line-height: 2rem;
+    margin: 0;
+}
+/*END: CARDS STYLE*/
+
+/*START: ARTICLES STYLE*/
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    background-color: var(--section-background);
+    flex-wrap: wrap;
+}
+
+.article > .article-img{
+    flex: 1;
+    border-radius: 1rem;
+    padding: 0.75rem 1rem 0.75rem 0.75rem;
+}
+
+.article > .article-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.article-cover{
+    flex: 3.5;
+    border-radius: 0.75rem;
+    text-align: justify;
+    background-color: var(--section-background);
+}
+
+.article .article-content{
+    margin: 1.5rem;
+    background-image: url(../common/images/oneNum.png);
+    background-repeat: no-repeat;
+    padding: 4rem 3rem 3rem 0rem;
+}
+
+.article:nth-child(1) .article-content{
+    background-image: url(../common/images/oneNum.png);
+}
+
+.article:nth-child(2) .article-content{
+    background-image: url(../common/images/towNum.png);
+}
+
+.article:nth-child(3) .article-content{
+    background-image: url(../common/images/threeNum.png);
+}
+
+.article:nth-child(4) .article-content{
+    background-image: url(../common/images/threeNum.png);
+}
+
+.article-content > p{
+    font-size: 1.1rem;
+    color: var(--black);
+    line-height: 2rem;
+    padding-bottom: 1.5rem;
+    margin: 0;
+}
+/*END: ARTICLES STYLE*/
+
+/*START: SERVICE INFO STYLE*/
+.service-info-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7.25rem;
+    width: 65%;
+    flex-wrap: wrap;
+}
+
+.serviceInfo > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.85rem;
+    padding: 0rem 3.5rem 3.7rem 3.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--article-background);
+}
+
+.serviceInfo > div > .info-title{
+    padding: 2rem 2.15rem;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 1.15rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+    border-radius: 2.2rem 0rem 2.2rem 0rem;
+}
+
+.serviceInfo > div > .contact-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding-right: 5rem;
+    justify-content: center;
+    align-items: left;
+}
+
+.serviceInfo > div > .contact-info > div > span{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+}
+
+.serviceInfo > div > .contact-info > div > p{
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+    margin: 0.25rem;
+}
+
+.serviceInfo > div > .contact-info > div:last-of-type{
+    max-width: 14rem;
+}
+
+.serviceInfo > div > .contact-info > div:last-of-type > p{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin: 0.25rem;
+}
+/*END: SERVICE INFO STYLE*/
+
+/*END: MAIN SECTION STYLE*/
+
+@media (max-width: 767px) {
+
+    .main-section > .cards{
+        flex-direction: column;
+    }
+
+    .main-section > .cards > .cardsCol{
+        flex-direction: row;
+    }
+}

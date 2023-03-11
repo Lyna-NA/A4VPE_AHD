@@ -1,0 +1,381 @@
+
+/*START: TOP-NAV STYLE*/
+.navbar-links li:last-of-type a {
+    background-color: var(--white) !important;
+    color: #6A994E !important;
+}
+
+.navbar-links li:last-of-type a:hover {
+    color: var(--white) !important;
+    background-color: var(--green-btn-hover) !important;
+}
+
+.top-nav>ul>li:nth-child(1) {
+    font-weight: bolder;
+}
+
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+.main-header {
+    display: flex;
+    flex-direction: row; 
+    column-gap: 10rem;
+    padding: 5% 10%;
+    flex-wrap: wrap;
+}
+
+.main-header .main-header-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+
+.main-header .main-header-left>span {
+    font-size: 2.5rem;
+    color: var(--black);
+    font-weight: bolder;
+    display: block;
+    line-height: 3.25rem;
+    text-align: left;
+    max-width: 80%;
+}
+
+.main-header .main-header-left>p {
+    font-size: 1.3rem;
+    color: #98999D;
+    display: block;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.main-header .main-header-left .header-left-btns, .btn {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.main-header .main-header-left .header-left-btns{
+    width: 70%;
+}
+
+.main-header .main-header-left .header-left-btns a, .btn a {
+    flex: 1;
+    color: var(--white);
+    border: 0.075rem solid;
+    border-color: var(--primary);
+    background-color: var(--primary);
+    border-radius: 2.15rem 2.15rem 2.15rem 0.6rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 0rem 0.3rem 0.5rem rgba(0, 0, 0, 0.15);
+    padding: 0.8rem 0;
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-header .main-header-left .header-left-btns a:hover , .btn a:hover{
+    color: var(--green-btn-hover);
+    background-color: var(--white);
+}
+
+.main-header .main-header-left .header-left-btns a:last-of-type {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.main-header .main-header-left .header-left-btns a:last-of-type:hover {
+    background-color: var(--green-btn-hover);
+    color: var(--white);
+}
+
+.main-header .main-header-right {
+    flex: 1;
+}
+
+.main-header .main-header-right .slideshow-container img {
+    width: 100%;
+    height: 100%;
+}
+
+/*END: HEADER STYLE*/
+
+
+/*START: ABOUT SECTION STYLE*/
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 12%;
+    gap: 3rem;
+}
+
+.about-container .about-title {
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    text-align: center;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.about-container .about-title span:first-of-type {
+    font-size: 0.9rem;
+    line-height: 3.3rem;
+}
+
+.about-container .about-title span:last-of-type {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+.about-container .about-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.about-container .about-info .about-left {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+}
+
+
+.about-container .about-info .about-left p{
+    font-size: 1.25rem;
+    line-height: 2rem
+}
+
+.about-container .about-info .about-right {
+    width: 35%;
+}
+
+.about-container .about-info .about-right .video-player {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.play-pause-button {
+    transform: translate(-50%, -50%) !important;
+}
+/*END: ABOUT SECTION STYLE*/
+
+/*START: COMPANIES SECTION STYLE*/
+.header-company-guide{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 6%;
+}
+
+.header-company-guide > span{
+    font-size: 1.8rem;
+    line-height: 2.45rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.header-company-guide .company-btn{
+    align-self: center;
+    width: 15%;
+}
+/*END: COMPANIES SECTION STYLE*/
+
+/*START: STORIES SECTION STYLE*/
+.header-stories{
+    padding: 5% 6%;
+}
+
+.header-stories > span{
+    font-size: 1.8rem;
+    line-height: 2.45rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    display: block;
+}
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories .story-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 6% 2%;
+    background-color: #FAFAFA;
+    border-radius: 1.75rem;
+}
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories .story-card .story-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories .story-card .story-whom{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+}
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories .story-card .story-whom .whom-img{
+    flex: 1;
+    width: 10%;
+} 
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories .story-card .story-whom img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories .story-card .story-whom .story-name{
+    flex: 8;
+    background-image: url(../common/images/qoute-icon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories .story-card .story-whom .story-name span{
+    line-height: 1.5rem;
+}
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories .story-card .story-whom .story-name span:first-of-type{
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.header-stories .stories-slider .slideshow-container .mySlides .card-stories .story-card .story-whom .story-name span:last-of-type{
+    color: var(--article-span);
+}
+/*END: STORIES SECTION STYLE*/
+
+/*START: FOUNDATION SECTION STYLE*/
+.header-foundation .mySlides{
+    background-color: var(--section-background);
+}
+
+.foundatin-slide-warapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foundation-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 6%;
+    width: 50%;
+    align-self: center;
+}
+
+.foundation-slide > span{
+    line-height: 2.45rem;
+    font-weight: bold;
+}
+
+.foundation-slide > span:first-of-type{
+    font-size: 1.4rem;
+}
+
+.foundation-slide > span:first-of-type{
+    font-size: 1.15rem;
+}
+
+.foundation-slide > .foundation-img{
+    padding: 3rem 0;
+    width: 15%;
+    height: 15%;
+}
+
+.foundation-slide > .foundation-img img{ 
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 0.25rem solid;
+    border-color: var(--img-border);
+}
+
+.foundation-slide > p{ 
+    font-size: 1.35rem;
+    text-align: center;
+}
+/*END: FOUNDATION SECTION STYLE*/
+
+
+/*START: CORE TEAM STYLE*/
+.header-team{
+    padding: 8% 5% 0% 5%;
+}
+
+.core-team>div>div> div{
+    width: 7%;
+    height: 13%;
+}
+/*END: CORE TEAM STYLE*/
+
+
+/*START: HEADER SIGNUP STYLE*/
+.header-signup{
+    background-color: var(--blue);
+    margin: 0 12% 6% 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-signup-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+    max-width: 50%;
+    color: var(--white);
+    gap: 1.5rem;
+}
+
+.header-signup-wrapper span{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 2.7rem;
+}
+
+.header-signup-wrapper p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin: 0;
+    text-align: center;
+}
+
+.header-signup-wrapper .btn{
+    width: 50%;
+}
+/*END: HEADER SIGNUP STYLE*/

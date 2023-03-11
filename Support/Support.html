@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="support.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" href="../common/css/root.css">
+    <link rel="stylesheet" href="../common/css/top-nav.css">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+    <link rel="stylesheet" href="../common/css/footer.css">
+    <link rel="stylesheet" href="../common/css/header.css">
+</head>
+
+<body>
+    <nav class="top-nav">
+        <div class="logo">
+          <a href="#"><img src="../common/images/logo.png" alt="This is the logo" /></a>
+        </div>
+         <ul class="navbar-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../AboutUs/AboutUs.html">About Us</a></li>
+          <li><a href="../CompanyGuide/CompanyGuide.html">Company Guide</a></li>
+          <li><a href="../SuccessStories/SuccessStories.html">Success Stories</a></li>
+          <li><a href="../ForOurPartners/ForOurPartners.html">For Our Partners</a></li>
+          <li><a href="../Resources/Resources.html">Resources</a></li>
+          <li><a href="../Volunteer/Volunteer.html">Support AVPE</a></li>  
+          <li><a href="../ContactUs/ContactUs.html">Contact Us</a></li>
+       </ul>
+        <button class="toggle-button">&#9776;</button></span>
+    </nav>
+    <div class="slideshow-container" id="slider1">
+        <div class="mySlides fade">
+            <section class="support-header header2">
+                <div class="header-left ">
+                    <div class="header-left-content">
+                        <span>Building Bridges Of Change</span>
+                        <p>To Help Palestinian Small and Medium Enterprises</p>
+                        <button>
+                            <div><img src="../common/images/heartIcon-green.png" alt=""></div>
+                            <span>Donate Now</span>
+                        </button>
+                        <a href="../Volunteer/Volunteer.html"><span>&#129122;</span> Volunteer</a>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img src="../common/images/donateHeader.png" alt="">
+                </div>
+            </section>
+        </div>
+
+        <div class="mySlides fade">
+            <section class="support-header header1">
+                <div class="header-left">
+                    <div class="header-left-content">
+                        <span>Building Bridges Of Change</span>
+                        <p>To Help Palestinian Small and Medium Enterprises</p>
+                        <button>
+                            <div><img src="../common/images/heartIcon-black.png" alt=""></div>
+                            <span>Donate Now</span>
+                        </button>
+                        <a href="../Volunteer/Volunteer.html"><span>&#129122;</span> Volunteer</a>
+                    </div>
+                </div>
+                <div class="header-right"></div>
+                <div class="header-image">
+                    <img src="../common/images/boy.png" alt="">
+                </div>
+            </section>
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1, 0)">❮</a>
+        <a class="next" onclick="plusSlides(1, 0)">❯</a>
+
+    </div>
+    <div class="wrapper">
+        <div class="wrapper-header">
+            <ul>
+                <li class="active form_1_progessbar">
+                    <div>
+                        <p>Step 1 <span>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;</span></p>
+                    </div>
+                </li>
+                <li class="form_2_progessbar">
+                    <div>
+                        <p>Step 2 <span>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;</span></p>
+                    </div>
+                </li>
+                <li class="form_3_progessbar">
+                    <div>
+                        <p>Step 3</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="form_wrap">
+            <div class="form_1 data_info">
+                <span>Donate Now</span>
+                <form>
+                    <div class="form_container">
+                        <div class="input_wrap ">
+                            <label class="input-title" for="">Choose Your Donation Frequency</label>
+                            <div class="btn-group donateFreqs" id="group1">
+                                <div>
+                                    <input type="radio" id="radio1" class="radio" checked name="group1" />
+                                    <label for="radio1">One Time</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio2" class="radio" name="group1" />
+                                    <label for="radio2">Monthly</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio3" class="radio" name="group1" />
+                                    <label for="radio3">Quarterly</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio4" class="radio" name="group1" />
+                                    <label for="radio4">Annually</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input_wrap">
+                            <label class="input-title" for="">Choose a Donation Level <br /> Select an amount</label>
+                            <div class="btn-group donateAmount" id="group2">
+                                <div>
+                                    <input type="radio" id="radio5" class="radio" checked name="group2" />
+                                    <label for="radio5">$25</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio6" class="radio" name="group2" />
+                                    <label for="radio6">$50</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio7" class="radio" name="group2" />
+                                    <label for="radio7">$100</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio8" class="radio" name="group2" />
+                                    <label for="radio8">$250</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio9" class="radio" name="group2" />
+                                    <label for="radio9">$500</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio10" class="radio" name="group2" />
+                                    <label for="radio10">$1000</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="input_wrap">
+                            <label class="input-title" for="">OR<br />Enter your own amount</label>
+                            <div class="currency-wrap">
+                                <span class="currencyinput">$</span>
+                                <input type="number" name="currency" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="form_2 data_info common-form" style="display: none;">
+                <span>Your Details</span>
+                <form>
+                    <div class="donor-type">
+                        <div class="donor-type-btn">
+                            <input type="radio" id="individual" name="type" value="individual">
+                            <label for="individual">Individual</label>
+                        </div>
+                        <div class="donor-type-btn">
+                            <input type="radio" id="organization" name="type" value="organization">
+                            <label for="organization">Business/Organization</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                        <div class="group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <label for="phone">Phone Number</label>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <div class="btn-group phone-types" id="group3">
+                                <div>
+                                    <input type="radio" id="radio11" class="radio" checked name="group3" />
+                                    <label for="radio11">Work</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio12" class="radio" name="group3" />
+                                    <label for="radio12">Mobile</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio13" class="radio" name="group3" />
+                                    <label for="radio13">Home</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="group">
+                            <label for="address1">Address Line 1</label>
+                            <input type="text" id="address1" name="address1">
+                        </div>
+                        <div class="group">
+                            <label for="address2">Address Line 2</label>
+                            <input type="text" id="address2" name="address2">
+                        </div>
+                        <div class="group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="group">
+                            <label for="state">State/Province</label>
+                            <select id="state" name="state">
+                                <option value="">Please select</option>
+                                <option value="CA">California</option>
+                                <option value="NY">New York</option>
+                                <option value="TX">Texas</option>
+                            </select>
+                        </div>
+                        <div class="group">
+                            <label for="postal">Postal Code</label>
+                            <input type="text" id="postal" name="postal">
+                        </div>
+                        <div class="group">
+                            <label for="country">Country</label>
+                            <select id="state" name="state">
+                                <option value="">Please select</option>
+                                <option value="CA">California</option>
+                                <option value="NY">New York</option>
+                                <option value="TX">Texas</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="checkbox" id="terms" name="terms">
+                        <label for="terms">Make this activity anonymous</label>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="group">
+                            <label id="msg" for="msg">Message of Support (Will be displayed on public site)</label>
+                            <textarea name="" id="" cols="30" rows="5"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="form_3 data_info common-form" style="display: none;">
+                <span>Your Details</span>
+                <form>
+                    <div class="donor-type">
+                        <div class="donor-type-btn" id="type_">
+                            <input type="radio" id="individual_" name="type_" value="individual">
+                            <label for="individual_">Individual</label>
+                        </div>
+                        <div class="donor-type-btn">
+                            <input type="radio" id="organization_" name="type_" value="organization">
+                            <label for="organization_">Business/Organization</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                        <div class="group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <label for="phone">Phone Number</label>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <div class="btn-group phone-types" id="group3">
+                                <div>
+                                    <input type="radio" id="radio14" class="radio" checked name="group4" />
+                                    <label for="radio14">Work</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio15" class="radio" name="group4" />
+                                    <label for="radio15">Mobile</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="radio16" class="radio" name="group4" />
+                                    <label for="radio16">Home</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="group">
+                            <label for="address1">Address Line 1</label>
+                            <input type="text" id="address1" name="address1">
+                        </div>
+                        <div class="group">
+                            <label for="address2">Address Line 2</label>
+                            <input type="text" id="address2" name="address2">
+                        </div>
+                        <div class="group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="group">
+                            <label for="state">State/Province</label>
+                            <select id="state" name="state">
+                                <option value="">Please select</option>
+                                <option value="CA">California</option>
+                                <option value="NY">New York</option>
+                                <option value="TX">Texas</option>
+                            </select>
+                        </div>
+                        <div class="group">
+                            <label for="postal">Postal Code</label>
+                            <input type="text" id="postal" name="postal">
+                        </div>
+                        <div class="group">
+                            <label for="country">Country</label>
+                            <select id="state" name="state">
+                                <option value="">Please select</option>
+                                <option value="CA">California</option>
+                                <option value="NY">New York</option>
+                                <option value="TX">Texas</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="checkbox" id="terms" name="terms">
+                        <label for="terms">Make this activity anonymous</label>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="group">
+                            <label id="msg" for="msg">Message of Support (Will be displayed on public site)</label>
+                            <textarea name="" id="" cols="30" rows="5"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="btns_wrap">
+            <div class="common_btns form_1_btns">
+                <button type="button" class="btn_next btn">Donate Now</button>
+            </div>
+            <div class="common_btns form_2_btns" style="display: none;">
+                <button type="button" class="btn_back btn">Back</button>
+                <button type="button" class="btn_next btn">Continue</button>
+            </div>
+            <div class="common_btns form_3_btns" style="display: none;">
+                <button type="button" class="btn_back btn">Back</button>
+                <button type="button" class="btn_done btn">Done</button>
+            </div>
+        </div>
+    </div>
+    <section class="main-section">
+        <span>Shifting Perspectives: Resetting U.S.-Palestine Business Opportunities</span>
+        <p>AVPE looks to the future with our eyes wide open, our hearts engaged, and a continued commitment to work
+            toward a vibrant Palestinian economy. 2020 brought
+            uncertainty and ‘new normals’ for the whole world. Today, we look to the future with hope for improved
+            U.S.-Palestine relations and a new level of economic
+            engagement between Palestinian and American businesspeople. AVPE is here to support Palestinians companies
+            turn a difficult year into opportunities for the future</p>
+        <span>Your gift supports the work of AVPE to shift perspectives and reset American-Palestinian business
+            opportunities.</span>
+        <p>Give generously and support Palestinian businesspeople to better face the challenges of both COVID-19 and
+            Israeli occupation. Your dollars help to connect
+            Palestinian businesses with resources and know-how from the U.S. while simultaneously providing Americans a
+            more informed image that appreciates the
+            patience, resilience, and business savvy of the Palestinian people.</p>
+        <span>Americans for a Vibrant Palestinian Economy (AVPE) is registered in the USA as a 501(c)(3) non-profit
+            organization. Contributions to
+            AVPE are tax-deductible to the extent permitted by law. AVPE's tax identification number is
+            47-1500245.</span>
+        <p>If you prefer to donate by check, please make out the check to AVPE and send it to AVPE | 2700 Patriot
+            Blvd., Suite 250 | Glenview,
+            IL 60026. If your employer matches donations, please apply for a match. If you want to donate appreciated
+            securities, please email us:
+            [info at a4vpe dot org] to receive instructions</p>
+    </section>
+   <div class="main-footer">
+        <footer>
+            <div class="footer-left">
+                <div><img src="../common/images/logo.png" alt="Logo"></div>
+                <div>
+                    <p>2700 Patriot Blvd, Suite 250 <br />
+                        Glenview, Illinois 60026 <br />
+                        hlenview, Illinois</p>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="footer-column">
+                    <span>Useful Links</span>
+                    <ul>
+                        <li><a href="../OperationsTeam/OperationsTeam.html">Operations Team</a></li>
+                        <li><a href="../EconomicReports/EconomicReports.html">Reports & Brochures</a></li>
+                        <li><a href="#">Terms & Condifions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="footer-column">
+                    <span>Products</span>
+                    <ul>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Product</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <span>Services</span>
+                    <ul>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Service</a></li>
+                    </ul>
+                </div> -->
+            </div>
+            <div class="footer-right">
+                <span>Get Started</span>
+                <p>knowing you're always on the best energy deal. </p>
+                <ul>
+                    <li><a href="#"><i ><img src="../common/images/twitter.png" alt=""></i></a></li>
+                    <li><a href="#"><i ><img src="../common/images/facebook.png" alt=""></i></a></li>
+                    <li><a href="#"><i ><img src="../common/images/twitter.png" alt=""></i></a></li>
+                </ul>
+                <button class="btn-top"><span style="transform: rotate(-90deg); display: inline-block;">&rsaquo;</span></button>
+            </div>
+        </footer>
+        <span>2023 &copy; Americans For A Vibrant Palestinian Economy <span>All rights reserved</span></span>
+    </div>
+    <script src="../common/js/footer.js"></script>
+    <script type="text/javascript" src="form.js"></script>
+    <script type="text/javascript" src="../common/js/slider.js"></script>
+    <script src="../common/js/navbar.js"></script>
+</body>
+
+</html>

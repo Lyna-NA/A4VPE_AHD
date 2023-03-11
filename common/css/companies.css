@@ -1,0 +1,92 @@
+/* .companeis{
+
+} */
+
+.companeis > .companeis-row{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.companeis > .companeis-row > .company-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 30%;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0rem 0.15rem 0.3rem rgb(161, 189, 255, 0.16);
+}
+
+.companeis > .companeis-row > .company-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.companeis > .companeis-row > .company-card > span{
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    line-height: 1.7rem;
+    text-align: left;
+    padding-left: 3.2rem;
+}
+
+.companeis > .companeis-row > .company-card > .company-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.1rem;
+    padding-left: 2rem;
+}
+
+.companeis > .companeis-row > .company-card > .company-info .info{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.4rem;
+    font-size: 1rem;
+    line-height: 1.35rem;
+}
+
+.companeis > .companeis-row > .company-card > .company-info .info  div img{
+   /* width: 80%; */
+   height: 50%;
+}
+
+.companeis > .companeis-row > .company-card > .company-info .info span{
+    font-size: 1rem;
+    color: var(--black);
+    line-height: 1.35rem;
+}
+
+.companeis > .companeis-row > .company-card > .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1rem;
+    line-height: 1.35rem;
+    padding-left: 3.5rem;
+    padding-right: 2rem;
+}
+
+.companeis > .companeis-row > .company-card > .links > .socialIcons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.companeis > .companeis-row > .company-card > .links > .socialIcons div{
+    width: 100%;
+    height: 100%;
+}
+
+.companeis > .companeis-row > .company-card > .links > .socialIcons div img{
+    width: 90%;
+    height: 70%;
+}
+
+.companeis > .companeis-row > .company-card > .links a{
+    color: var(--primary);
+    text-decoration: none;
+}

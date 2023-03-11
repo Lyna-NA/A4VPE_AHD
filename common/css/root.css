@@ -1,0 +1,153 @@
+:root {
+    --primary: #6A994E;
+    --white: #fff;
+    --black: #000;
+    --green-btn-hover: #557742;
+    --secondary-border-clr: #D3D5D8;
+    --primary-border-clr: #E2E2E2;
+    --footer-txt: #0B280F;
+    --timeline-border: #BEBEBE;
+    --section-background: #F9F9F9;
+    --footer-span: #555;
+    --blue: #082840;
+    --article-background: #FEFFFA;
+    --article-span: #919191;
+    --article-border-left: #8547FF;
+    --img-border: #90BE6D;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    text-align: justify;
+}
+
+* {
+    list-style: none;
+}
+
+@media only screen and (min-width: 2000px) {
+
+    /* Styles for desktop navbar */
+    html {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+
+    /* Styles for desktop navbar */
+    html {
+        font-size: 15px;
+    }
+}
+
+/* Styles for screen sizes up to 1024 pixels */
+@media only screen and (max-width: 1024px) {
+    /* Styles for tablet navbar */
+    /* Styles for mobile navbar */
+
+    .navbar-links {
+        position: fixed;
+        background-color: var(--white);
+        height: 100vh !important;
+        width: 30% !important;
+        top: 2.5rem;
+        right: 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5%;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        z-index: 1;
+    }
+
+    .navbar-links button {
+        margin: 0;
+    }
+
+    .navbar-links.active {
+        transform: translateX(0%);
+    }
+
+    .toggle-button {
+        display: flex !important;
+    }
+
+    .header-overlay-content>ul {
+        flex-direction: column;
+    }
+
+    .navbar-links {
+        top: 3rem;
+    }
+
+    .btn-add-name{
+        top: -18rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+    html {
+        
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+
+    .form-add-company form .form-section .group {
+        max-width: 100%;
+    }    
+
+    .submit-form-btn button{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .main-section{
+        padding: 3rem;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .navbar-links {
+        top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    html {
+        font-size: 8px;
+    }
+
+    .guide-wrapper{
+        padding: 15rem 5rem 0.2rem 5rem
+    }
+
+    .btn-add-name{
+        top: -15rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 280px) {
+    html {
+        font-size: 6px;
+    }
+
+    .navbar-links {
+        top: 1.5rem;
+    }
+
+    .btn-add-name{
+        top: -9rem;
+    }
+}

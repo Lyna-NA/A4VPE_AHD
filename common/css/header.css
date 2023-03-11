@@ -1,0 +1,56 @@
+/*START: HEADER STYLE*/
+.header {
+    background-image: url(../images/main-cover.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-overlay-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5%;
+    padding: 10% 0rem 10% 0rem;
+    background-color: rgba(0, 0, 0, 0.54);
+}
+
+.header-overlay-content>span>a {
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: bold;
+    line-height: 2.7rem;
+    text-decoration: none;
+}
+
+.header-overlay-content>ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    padding: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header-overlay-content>ul>span{
+    color: rgba(255, 255, 255, 0.363);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.header-overlay-content>ul>li>a {
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    color: var(--white);
+}
+
+.header-overlay-content>ul>li>a:hover{
+    color: var(--primary);
+}
+/*END: HEADER STYLE*/

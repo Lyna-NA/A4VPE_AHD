@@ -1,0 +1,36 @@
+/*START: TOP-NAV STYLE*/
+.top-nav>ul>li:nth-child(7) {
+    font-weight: bolder;
+}
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+.header-overlay-content>ul>li:nth-child(1)>a {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN SECTION STYLE*/
+.main-section {
+    padding: 5rem 8rem 18.25rem 7rem;
+}
+
+.main-section > span{
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    padding-bottom: 2rem;
+    display: block;
+}
+
+.main-section > p{
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+}
+/*END: MAIN ARTICLE STYLE*/

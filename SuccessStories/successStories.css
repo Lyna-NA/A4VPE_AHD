@@ -1,0 +1,130 @@
+/*START: TOP-NAV STYLE*/
+.top-nav>ul>li:nth-child(4) {
+    font-weight: bolder;
+}
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+/* .header-overlay-content>ul>li:nth-child(1)>a {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.25rem;
+} */
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN SECTION STYLE*/
+.main-section {
+    padding: 5rem 7rem 7rem 7rem;
+}
+
+.main-section > span{
+    font-size: 1.5rem;
+    color: var(--black);
+    font-weight: bold;
+    padding-bottom: 0.6rem;
+    display: block;
+    text-align: center;
+}
+
+.main-section > p{
+    padding-bottom: 4.25rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.35rem;
+    margin: 0;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+}
+
+.article > .article-img{
+    flex: 1;
+}
+
+.article > .article-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article > .article-img > .left{
+    border-radius: 0.75rem;
+}
+
+.article > .article-img > .right{
+    border-radius: 0.75rem;
+}
+
+.article-cover{
+    flex: 1.5;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    text-align: justify;
+    position: relative;
+    background-color: var(--white);
+    margin: 1.5rem 0;
+}
+
+.article > .left{
+    right: -5rem;
+    margin-left: -5rem;
+}
+
+.article > .right{
+    left: -5rem;
+    margin-right: -5rem;
+}
+
+.article .article-content{
+    margin: 1.5rem;
+    background-image: url(../common/images/oneNum.png);
+    background-repeat: no-repeat;
+    padding: 2.5rem 0rem 0rem 0.5rem;
+}
+
+.article:nth-child(1) .article-content{
+    background-image: url(../common/images/oneNum.png);
+}
+
+.article:nth-child(2) .article-content{
+    background-image: url(../common/images/towNum.png);
+}
+
+.article:nth-child(3) .article-content{
+    background-image: url(../common/images/threeNum.png);
+}
+
+.article-content > span{
+    display: block;
+    line-height: 1.7rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.article-content > p{
+    font-size: 1.1rem;
+    color: var(--black);
+    line-height: 2rem;
+    padding-bottom: 1.5rem;
+    margin: 0;
+}
+
+.article-content > a{
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+/*END: MAIN SECTION STYLE*/

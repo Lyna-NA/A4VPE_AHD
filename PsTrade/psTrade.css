@@ -1,0 +1,77 @@
+/*START: TOP-NAV STYLE*/
+.top-nav>ul>li:nth-child(6) {
+    font-weight: bolder;
+}
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+.header-overlay-content>ul>li:nth-child(5)>a {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN SECTION STYLE*/
+.main-section {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 7rem 11rem 7rem;
+}
+
+.main-section > span{
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+    display: block;
+    line-height: 1.7rem;
+}
+
+.main-section > p{
+    margin: 0;
+    line-height: 2rem;
+    font-size: 1rem;
+    padding-bottom: 4.75rem;
+}
+
+.main-section > .members{
+    display: flex;
+}
+
+.main-section > .members > .row{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-section > .members > .row > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    padding-bottom: 1rem;
+    width: 22%;
+}
+
+.main-section > .members > .row > div .img-container{
+    width: 100%;
+}
+
+.main-section > .members > .row > div .img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-section > .members > .row > div > span{
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+/*END: MAIN SECTION STYLE*/

@@ -1,0 +1,96 @@
+/*START: TOP-NAV STYLE*/
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0; /* required */
+    z-index: 1;
+    background-color: var(--white);
+    box-shadow: 0rem 0.15rem 0.3rem rgb(161, 189, 255, 0.16);
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.top-nav .logo{
+    height: 50%;
+    width: 10%;
+}
+
+.top-nav .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    padding: 1% 2%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li:first-of-type{
+    padding-left: 7%;
+}
+
+.navbar-links li:nth-child(8){
+    padding-left: 7%;
+}
+
+.navbar-links a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease-in;
+}
+
+.navbar-links li:last-of-type a{
+    padding: 6% 1.2rem;
+}
+
+.navbar-links li:last-of-type a,
+.toggle-button {
+    color: var(--white);
+    border: 0.075rem solid;
+    border-color: var(--primary);
+    background-color: var(--primary);
+    border-radius: 2.15rem 2.15rem 2.15rem 0.6rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    box-shadow: 0rem 0.2rem 0.4rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar-links a:hover{
+    color: var(--black);
+    font-weight: bolder;
+}
+
+.navbar-links li:last-of-type a:hover, .toggle-button:hover{
+    background-color: var(--green-btn-hover);
+}
+
+.toggle-button {
+    display: none;
+    padding: 1% 2%;
+}
+/*END: TOP-NAV STYLE*/

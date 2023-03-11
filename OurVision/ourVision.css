@@ -1,0 +1,145 @@
+/*START: TOP-NAV STYLE*/
+.top-nav>ul>li:nth-child(2) {
+    font-weight: bolder;
+}
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+.header-overlay-content>ul>li:nth-child(1)>a {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN SECTION STYLE*/
+.main-section {
+    padding: 5rem 8rem 18.25rem 7rem;
+}
+
+.main-section > div > span{
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    padding-bottom: 2rem;
+    display: block;
+}
+
+.vision > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    padding-bottom: 5.75rem;
+}
+
+.vision > div > p, .mission > div > p{
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 2.1rem;
+}
+
+.mission > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5.75rem;
+}
+
+.mission > div > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mission > div > div .img-container{
+    flex: 1;
+}
+
+.mission > div > div > .img-container img{
+    position: relative;
+    right: -2.25rem;
+    width: 100%;
+    height: 100%;
+}
+
+.mission > div > div > .quote{
+    flex: 3;
+    background-color: rgba(226, 226, 226, 0.28);
+    border-radius: 3.7rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1.8rem;
+    height: 100%;
+    align-self: center;
+}
+
+.mission > div > div > .quote > div{
+    width: 16%;
+    height: 16%;
+}
+
+.mission > div > div > .quote > div > img{
+    justify-self: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.mission > div > div > .quote > p{
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+    padding: 4.5rem 2.8rem 2.25rem 0rem;
+}
+/*END: MAIN ARTICLE STYLE*/
+
+
+/*START: CORE TEAM STYLE*/
+.core-team {
+    padding: 0rem 7rem 17.5rem 7rem;
+}
+
+.core-team>span {
+    display: block;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: var(--black);
+    text-align: center;
+    padding-bottom: 3.3rem;
+    line-height: 1.7rem;
+}
+
+.core-team>div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4.4rem;
+}
+
+.core-team>div>div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 7.5rem;
+}
+/*END: CORE TEAM STYLE*/
+
+@media only screen and (max-width: 1023px) {
+    .mission > div > div{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .mission > div > div .img-container {
+        order: 1;
+        width: 30%;    
+    }
+
+    .mission > div > div > .quote{
+        order: 2;
+    }
+
+    .mission > div > div > .img-container img{
+        bottom: -8rem;
+        margin-top: -8rem;
+    }
+}

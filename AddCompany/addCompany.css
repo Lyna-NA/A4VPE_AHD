@@ -1,0 +1,22 @@
+/*START: TOP-NAV STYLE*/
+.top-nav>ul>li:nth-child(3) {
+    font-weight: bolder;
+}
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+.header-overlay-content>ul>li:nth-child(3)>a {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.25rem;
+} 
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN SECTION STYLE*/
+.main-section{
+    padding: 4.25rem 9.15rem 0.6rem 9.15rem;
+}
+
+/*END: MAIN SECTION STYLE*/

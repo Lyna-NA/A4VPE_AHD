@@ -1,0 +1,434 @@
+.wrapper {
+	margin: 6.5rem 11.4rem 6.4rem 11.4rem;
+	border-radius: 1rem 1rem 0rem 0rem;
+	outline: 0.05rem solid;
+	border-color: var(--secondary-border-clr);
+	padding-bottom: 5rem;
+}
+
+
+/*START: FORM wrapper-header STYLE*/
+.wrapper .wrapper-header {
+	padding: 2.25rem 0rem 0rem 3.1rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.wrapper .wrapper-header ul {
+	display: flex;
+	column-gap: 0.9rem;
+	padding: 0;
+}
+
+.wrapper .wrapper-header ul li {
+	position: relative;
+}
+
+.wrapper .wrapper-header ul li {
+	color: var(--article-span);
+}
+
+.wrapper .wrapper-header ul .active {
+	color: var(--black);
+}
+
+.wrapper .wrapper-header ul li p {
+	text-align: center;
+	line-height: 1.25rem;
+	font-size: 1.1rem;
+	font-weight: 500;
+	margin: 0;
+}
+
+/*END: FORM wrapper-header STYLE*/
+
+
+/*START: FORM1 WRAPPER STYLE*/
+.wrapper .form_wrap .form_1 {
+	margin: 4.65rem 9.25rem 2.9rem 9.25rem;
+}
+
+.wrapper .form_wrap .form_1 span {
+	display: flex;
+	justify-content: center;
+	color: var(--black);
+	line-height: 1.5rem;
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-bottom: 0.3rem;
+}
+
+.data_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 4rem;
+}
+
+.form_container .input_wrap .input-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--black);
+	text-align: center;
+	line-height: 1.7rem;
+	font-size: 1.25rem;
+	padding-bottom: 1.9rem;
+}
+
+/* START: BUTTON GROUP STYLE*/
+.btn-group {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	column-gap: 0.9rem;
+}
+
+.btn-group input[type="radio"] {
+	display: none;
+}
+
+.btn-group label {
+	display: block;
+	background-color: var(--white);
+	color: var(--black);
+	font-size: 1rem;
+	line-height: 1.35rem;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border-radius: 0.6rem;
+	border: 0.05rem solid;
+	border-color: var(--secondary-border-clr);
+	padding: 0.9rem 3rem;
+}
+
+.donateAmount label {
+	background-color: #F3FFEB;
+	border: none;
+}
+
+.btn-group input.radio:checked~label {
+	color: var(--white);
+	background-color: var(--primary);
+}
+
+.phone-types {
+	column-gap: 0rem;
+	flex: 2;
+	padding-right: 6rem;
+}
+
+.form-group #phone {
+	flex: 1;
+}
+
+.phone-types div {
+	width: 100%;
+	text-align: center;
+}
+
+.phone-types div:nth-child(1) label:nth-child(2) {
+	border-radius: 0.6rem 0rem 0rem 0.6rem;
+}
+
+.phone-types div:nth-child(2) label:nth-child(2) {
+	border-radius: 0rem;
+}
+
+.phone-types div:nth-child(3) label:nth-child(2) {
+	border-radius: 0rem 0.6rem 0.6rem 0rem;
+}
+
+/* END: BUTTON GROUP STYLE*/
+
+/* START: CURRENCY BUTTON STYLE*/
+.currency-wrap {
+	display: flex;
+	flex-direction: row;
+	border: 0.05rem solid;
+	border-color: var(--secondary-border-clr);
+	border-radius: 0.6rem;
+	width: 31rem;
+}
+
+.currency-wrap .currencyinput {
+	background-color: var(--primary-border-clr);
+	padding: 1.7rem 1.15rem;
+	margin: 0 !important;
+	color: var(--black);
+	font-size: 1rem;
+	line-height: 1.35rem;
+	font-weight: bold;
+}
+
+.currency-wrap input {
+	border: none;
+	outline: none;
+	padding: 1.5rem 2rem;
+	background-color: var(--white);
+	color: var(--black);
+	font-size: 1.25rem;
+	line-height: 1.7rem;
+	width: 100%;
+	border-radius: 0.6rem;
+}
+
+/* END: CURRENCY BUTTON STYLE*/
+/*END: FORM1 WRAPPER STYLE*/
+
+
+/*START: FORM2 WRAPPER STYLE*/
+.wrapper .form_wrap .common-form {
+	margin: 2.75rem 2.25rem 1.75rem 4rem;
+}
+
+.wrapper .form_wrap .common-form span {
+	display: block;
+	text-align: left;
+	color: var(--black);
+	line-height: 1.5rem;
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+
+.common-form form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+}
+
+/*START: DONOR-TYPE RADIO BTN*/
+.common-form form .donor-type {
+	display: flex;
+	flex-direction: row;
+	column-gap: 4.35rem;
+	align-items: center;
+}
+
+.common-form form .donor-type .donor-type-btn {
+	display: flex;
+	flex-direction: row;
+	column-gap: 0.6rem;
+	align-items: center;
+}
+
+.common-form form .donor-type input[type="radio"] {
+	/* Add if not using autoprefixer */
+	-webkit-appearance: none;
+	/* remove most all native input styles */
+	appearance: none;
+	/* Not removed via appearance */
+	margin: 0;
+	font: inherit;
+	color: var(--primary);
+	width: 1.15rem;
+	height: 1.15rem;
+	border: 0.15rem solid;
+	border-color: var(--primary);
+	border-radius: 50%;
+	transform: translateY(-0.075rem);
+	display: grid;
+	place-content: center;
+}
+
+.common-form form .donor-type input[type="radio"]::before {
+	content: "";
+	width: 0.65rem;
+	height: 0.65rem;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: 120ms transform ease-in-out;
+	box-shadow: inset 1rem 1rem var(--primary);
+	/* Windows High Contrast Mode */
+	background-color: var(--primary);
+}
+
+.common-form form .donor-type input[type="radio"]:checked::before {
+	transform: scale(1);
+}
+
+.donor-type-btn label,
+.form-group label {
+	font-size: 1.25rem;
+}
+
+/*END: DONOR-TYPE RADIO BTN*/
+
+/*START: DONOR CHECKBOX BTN*/
+input[type="checkbox"] {
+	/* Add if not using autoprefixer */
+	-webkit-appearance: none;
+	/* remove most all native input styles */
+	appearance: none;
+	/* Not removed via appearance */
+	margin: 0;
+	font: inherit;
+	width: 1.15rem;
+	height: 1.15rem;
+	border: 0.15rem solid currentColor;
+	border-radius: 0.15rem;
+	transform: translateY(-0.075rem);
+	display: grid;
+	place-content: center;
+}
+
+input[type="checkbox"]::before {
+	content: "";
+	width: 0.65rem;
+	height: 0.65rem;
+	clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+	transform: scale(0);
+	transform-origin: bottom left;
+	transition: 120ms transform ease-in-out;
+	background-color: var(--primary);
+}
+
+input[type="checkbox"]:checked::before {
+	transform: scale(1);
+}
+
+input[type="checkbox"]:focus {
+	outline: max(0.1rem, 0.15rem) solid currentColor;
+	outline-offset: max(0.1rem, 0.15rem);
+}
+
+/* input[type="checkbox"]:disabled {
+	--form-control-color: var(--form-control-disabled);
+
+	color: var(--form-control-disabled);
+	cursor: not-allowed;
+} */
+/*END: DONOR CHECKBOX BTN*/
+
+#msg {
+	font-size: 1.25rem;
+	line-height: 1.2rem;
+	font-weight: 500;
+}
+
+.common-form .form-group {
+	display: flex;
+	flex-direction: row;
+	column-gap: 1.75rem;
+	width: 100%;
+}
+
+.common-form .group {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.1rem;
+	width: 100%;
+}
+
+.common-form .form-group .group label {
+	background-color: var(--white);
+	color: var(--black);
+	font-size: 1rem;
+	line-height: 1.2rem;
+	font-weight: 500;
+}
+
+.common-form .form-group .group input,
+.common-form .form-group input,
+.common-form .form-group .group select,
+.common-form .form-group .group textarea {
+	background-color: var(--white);
+	color: var(--black);
+	font-size: 1rem;
+	line-height: 1.2rem;
+	font-weight: 500;
+	border-radius: 0.6rem;
+	border: 0.05rem solid;
+	border-color: var(--secondary-border-clr);
+	padding: 1rem;
+	outline: none;
+}
+
+/*END: FORM2 WRAPPER STYLE*/
+
+
+/*START: BTN-WRAP STYLE*/
+.wrapper .btns_wrap {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.wrapper .btns_wrap .common_btns {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 2.25rem 0rem 4rem;
+}
+
+.wrapper .btns_wrap .common_btns.form_1_btns {
+	justify-content: center;
+}
+
+.wrapper .btns_wrap .common_btns .btn {
+	border-radius: 0.6rem;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	font-weight: bold;
+	padding: 1.4rem 4.25rem;
+}
+
+.wrapper .btns_wrap .common_btns .btn_next,
+.wrapper .btns_wrap .common_btns .btn_done {
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+.wrapper .btns_wrap .common_btns.form_1_btns .btn_next {
+	padding: 1.65rem 12.5rem;
+}
+
+.wrapper .btns_wrap .common_btns button {
+	border: 0;
+	padding: 0.6rem 0.75rem;
+	/* background: var(--primary);
+	color: var(--var(--white)); */
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-size: 0.8rem;
+	border-radius: 0.15rem;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+.wrapper .btns_wrap .common_btns button.btn_back {
+	color: var(--black);
+	background-color: var(--primary-border-clr);
+}
+
+/* .wrapper .btns_wrap .common_btns button.btn_next .icon{
+	display: flex;
+	margin-left: 0.5rem;
+}
+
+.wrapper .btns_wrap .common_btns button.btn_back .icon{
+	display: flex;
+	margin-right: 0.5rem;
+} */
+/* 
+.wrapper .btns_wrap .common_btns button.btn_next:hover,
+.wrapper .btns_wrap .common_btns button.btn_done:hover{
+	background: 8577d2;
+}
+
+.wrapper .btns_wrap .common_btns button.btn_back:hover{
+	background: 8577d2;
+} */
+/*END: BTN-WRAP STYLE*/

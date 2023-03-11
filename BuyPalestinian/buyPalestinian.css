@@ -1,0 +1,98 @@
+
+/*START: TOP-NAV STYLE*/
+.top-nav>ul>li:nth-child(6) {
+    font-weight: bolder;
+}
+/*END: TOP-NAV STYLE*/
+
+
+/*START: HEADER STYLE*/
+.header-overlay-content>ul>li:nth-child(9)>a {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+/*END: HEADER STYLE*/
+
+
+/*START: MAIN SECTION STYLE*/
+.main-section {
+    padding: 4.25rem 7rem 16rem 7rem;
+}
+
+.main-section>span {
+    font-size: 1.25rem;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 5rem;
+    display: block;
+    line-height: 1.2rem;
+}
+
+/*START: CARD STYLE*/
+.main-section > .cards{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.65rem;
+}
+
+.main-section > .cards > .row{
+    display: flex;
+    flex-direction: row;
+    gap: 3.15rem;
+    flex-wrap: wrap;
+}
+
+.main-section > .cards > .row > .card{
+    flex: 1;
+}
+
+.main-section > .cards > .row > .card > .card-image{
+    background-image: url(../common/images/tree.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.6rem;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    max-height: 21.9rem;
+}
+
+.main-section > .cards > .row > .card > .card-image >.overlay-content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    padding: 9.9rem 6.35rem 9.85rem 6.4rem;
+    background-color: rgba(0, 0, 0, 0.28);
+}
+
+.main-section > .cards > .row > .card > .card-image >.overlay-content>span{
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: bold;
+    display: block;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.main-section > .cards > .row > .card > .description{
+    font-size: 1.1rem;
+    color: var(--black);
+    font-weight: 500;
+    display: block;
+    line-height: 1.6rem;
+    background-color: var(--white);
+    padding: 1.9rem 4.15rem 5.9rem 1.5rem;
+    position: relative;
+    top: -6.5rem;
+    margin-bottom: -6.5rem;
+    margin-left: 4.7rem;
+    border-radius: 0.6rem 0 0 0.6rem;
+}
+
+.main-section > .cards > .row > .card > .description > span > a{
+    color: var(--primary);
+}
+/*END: CARD STYLE*/
+/*END: MAIN SECTION STYLE*/
