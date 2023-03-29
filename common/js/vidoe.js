@@ -13,7 +13,7 @@ videoPlayers.forEach(function (player) {
   var startButton = player.querySelector(".start-button");
 
   // Get the poster image
-  var posterImage = video.getAttribute("poster");
+  // var posterImage = video.getAttribute("poster");
 
   // Pause the video and update the button text
   function pauseVideo() {

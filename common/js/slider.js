@@ -3,17 +3,19 @@ showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
 
-function plusSlides(n, slideshowIndex) {
-  showSlides((slideIndex[slideshowIndex] += n), slideshowIndex);
-}
+// function plusSlides(n, slideshowIndex) {
+//   showSlides((slideIndex[slideshowIndex] += n), slideshowIndex);
+// }
 
-function currentSlide(n, slideshowIndex) {
-  showSlides((slideIndex[slideshowIndex] = n), slideshowIndex);
-}
+// function currentSlide(n, slideshowIndex) {
+//   showSlides((slideIndex[slideshowIndex] = n), slideshowIndex);
+// }
 
 function showSlides(n, slideshowIndex) {
   let i;
-  let slides = document.getElementById("slider" + (slideshowIndex + 1)).getElementsByClassName("mySlides");
+  let slides = document
+    .getElementById("slider" + (slideshowIndex + 1))
+    .getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {
     slideIndex[slideshowIndex] = 1;
