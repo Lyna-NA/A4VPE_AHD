@@ -3,13 +3,13 @@ showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
 
-// function plusSlides(n, slideshowIndex) {
-//   showSlides((slideIndex[slideshowIndex] += n), slideshowIndex);
-// }
+ function plusSlides(n, slideshowIndex) {
+   showSlides((slideIndex[slideshowIndex] += n), slideshowIndex);
+ }
 
-// function currentSlide(n, slideshowIndex) {
-//   showSlides((slideIndex[slideshowIndex] = n), slideshowIndex);
-// }
+ function currentSlide(n, slideshowIndex) {
+   showSlides((slideIndex[slideshowIndex] = n), slideshowIndex);
+ }
 
 function showSlides(n, slideshowIndex) {
   let i;
@@ -27,8 +27,8 @@ function showSlides(n, slideshowIndex) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    // dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex[slideshowIndex] - 1].style.display = "block";
-  // dots[slideIndex[slideshowIndex] - 1].className += " active";
+    dots[slideIndex[slideshowIndex] - 1].className += " active";
 }
